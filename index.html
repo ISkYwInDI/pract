@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Двенадцатая практическая</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header>
+        <div class="popup">
+            <a href="#">Главная</a>
+            <a id="show_add_photo" href="#">Фото</a>
+            <a href="#">Посты</a>
+            <a href="#">Личный кабинет</a>
+        </div>    
+        <div class="mobile_icon">
+            <img src="list.png" alt="">
+        </div>
+    </header>
+    <h1>Галерея</h1>
+    <div id="grid">
+        <div class="photo">
+            <img src="https://images.unsplash.com/photo-1566275529824-cca6d008f3da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGhvdG98ZW58MHx8MHx8&w=1000&q=80" alt="">
+            <p>Фоточка №1</p>
+        </div>
+        <div class="photo">
+            <img src="https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG98ZW58MHx8MHx8&w=1000&q=80" alt="">
+            <p>Фоточка №2</p>
+        </div>
+        <div class="photo">
+            <img src="https://www.paperlessmovement.com/wp-content/uploads/2019/09/o2dvsv2pnhe.jpg" alt="">
+            <p>Фоточка №3</p>
+        </div>
+        <div class="photo">
+            <img src="https://media.npr.org/assets/img/2014/08/07/monkey-selfie_custom-7117031c832fc3607ee5b26b9d5b03d10a1deaca-s1100-c50.jpg" alt="">
+            <p>Фоточка №4</p>
+        </div>
+    </div>
+    <div id="add_new_photo">
+        <div>
+        <input id="new_photo_src" type="text" placeholder="Картинка">
+        <input id="new_photo_text" type="text" placeholder="Подпись">
+        <button id="add_photo">Добавить</button>
+        <button id="cancel">Отмена</button>
+        </div>
+    </div>
+
+    <div id="popup_photo">
+        <img src="" alt="">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
